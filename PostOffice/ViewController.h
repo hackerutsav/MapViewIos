@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) NSDictionary *jsonData;
+@property (strong, nonatomic) UIWindow *window;
+
+
 
 @end
 
