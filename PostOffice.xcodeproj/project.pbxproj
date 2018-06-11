@@ -21,6 +21,8 @@
 		3C30AAEF20CD94AD00F7BD44 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30AAE820CD94AC00F7BD44 /* AFURLResponseSerialization.m */; };
 		3C30AAF020CD94AD00F7BD44 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30AAEA20CD94AC00F7BD44 /* AFURLSessionManager.m */; };
 		3C30AAF620CDAB3D00F7BD44 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30AAF520CDAB3D00F7BD44 /* FirstViewController.m */; };
+		3C30AAF920CE425C00F7BD44 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C30AAF820CE425C00F7BD44 /* MapKit.framework */; };
+		3C30AAFC20CE42D700F7BD44 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C30AAFB20CE42D700F7BD44 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,9 @@
 		3C30AAEA20CD94AC00F7BD44 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		3C30AAF420CDAB3D00F7BD44 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		3C30AAF520CDAB3D00F7BD44 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3C30AAF820CE425C00F7BD44 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3C30AAFA20CE42D700F7BD44 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		3C30AAFB20CE42D700F7BD44 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C30AAF920CE425C00F7BD44 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +76,7 @@
 			children = (
 				3C30AAC220CD6A1B00F7BD44 /* PostOffice */,
 				3C30AAC120CD6A1B00F7BD44 /* Products */,
+				3C30AAF720CE425B00F7BD44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +105,8 @@
 				3C30AAD220CD6A3400F7BD44 /* main.m */,
 				3C30AAF420CDAB3D00F7BD44 /* FirstViewController.h */,
 				3C30AAF520CDAB3D00F7BD44 /* FirstViewController.m */,
+				3C30AAFA20CE42D700F7BD44 /* MapViewController.h */,
+				3C30AAFB20CE42D700F7BD44 /* MapViewController.m */,
 			);
 			path = PostOffice;
 			sourceTree = "<group>";
@@ -121,6 +130,14 @@
 				3C30AAEA20CD94AC00F7BD44 /* AFURLSessionManager.m */,
 			);
 			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		3C30AAF720CE425B00F7BD44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C30AAF820CE425C00F7BD44 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +213,7 @@
 				3C30AAF620CDAB3D00F7BD44 /* FirstViewController.m in Sources */,
 				3C30AAED20CD94AD00F7BD44 /* AFSecurityPolicy.m in Sources */,
 				3C30AAEF20CD94AD00F7BD44 /* AFURLResponseSerialization.m in Sources */,
+				3C30AAFC20CE42D700F7BD44 /* MapViewController.m in Sources */,
 				3C30AAC820CD6A1B00F7BD44 /* ViewController.m in Sources */,
 				3C30AAD320CD6A3400F7BD44 /* main.m in Sources */,
 				3C30AAEB20CD94AC00F7BD44 /* AFHTTPSessionManager.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "FeedTableViewController.h"
+#import "MapViewController.h"
 
 
 @interface FeedTableViewController ()
@@ -109,9 +110,9 @@
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
 
-//    PhotoViewController *photoVC = [[PhotoViewController alloc] init];
-//    photoVC.imageFileName = imageNames[indexPath.row];
-//    [self.navigationController pushViewController:photoVC animated:YES];
+    MapViewController  *mapVC = [[MapViewController alloc] init];
+
+    [self.navigationController pushViewController:mapVC animated:YES];
     
 }
 
